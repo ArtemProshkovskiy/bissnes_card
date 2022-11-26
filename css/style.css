@@ -1128,6 +1128,17 @@ body {
     margin-bottom: 18px;
 }
 
+.footer-content__contact a {
+    font-family: 'Arodora Pro';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 21px;
+
+    color: #E4E4E4;
+    text-decoration: none;
+}
+
 .footer-content__contact span:last-child {
     margin-bottom: 0;
 }
@@ -1743,5 +1754,11 @@ body {
     /*portfolio*/
     .card__content_item-card2 .card__content__item__block:nth-child(3) {
         margin-left: 0px;
+    }
+}
+
+@media only screen and (orientation: landscape) {
+    .popup-burger {
+        top: 24%;
     }
 }
