@@ -867,7 +867,7 @@ body {
 .portfolio {
     background: #202020;
     width: 100%;
-    height: 100vh;
+    height: 100%;
     padding-bottom: 160px;
 }
 
@@ -1738,12 +1738,6 @@ body {
     }
 }
 
-@media (max-height: 800px) {
-    /*portfolio*/
-    .portfolio {
-        height: 120vh;
-    }
-}
 
 @media (max-width: 449px) {
     /*portfolio*/
